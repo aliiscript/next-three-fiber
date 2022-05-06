@@ -2,7 +2,7 @@
 
 ### :desktop_computer: Live Demo :
 
-[[!image](./public/Screen%20Shot%202022-05-06%20at%207.06.39%20AM.png)](https://next-three-fiber-beta.vercel.app/)
+[![image](./public/Screen%20Shot%202022-05-06%20at%207.06.39%20AM.png)](https://next-three-fiber-beta.vercel.app/)
 
 :warning:This is my official r3f-next starter. Had a [previous](https://github.com/aliiscript/next-r3f-starter) one but code was all over the place and wasnt happy with organization and have also learned alot more, will leave up tho for those who are using it :warning:
 
