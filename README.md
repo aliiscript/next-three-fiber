@@ -13,9 +13,9 @@
 Run the following command to create a new project with this Starter:
 
 ```
-yarn create next-app [project name] -e https://github.com/Alex23925/next-r3f-starter
+yarn create next-app [project name] -e https://github.com/aliiscript/next-three-fiber
 # or
-npx create-next-app [project name] -e https://github.com/Alex23925/next-r3f-starter
+npx create-next-app [project name] -e https://github.com/aliiscript/next-three-fiber
 ```
 
 ## Deploy on Vercel
