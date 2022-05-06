@@ -1,31 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next Three Fiber Starter
 
-## Getting Started
+:warning:This is my official r3f-next starter. Had a [previous](https://github.com/aliiscript/next-r3f-starter) one but code was all over the place and wasnt happy with organization and have also learned alot more, will leave up tho for those who are using it :warning:
 
-First, run the development server:
+## Minimal react three fiber Starter using [Next.js](https://nextjs.org/) with TypeScript and Styled Components
 
-```bash
-npm run dev
-# or
-yarn dev
+## How To Use
+
+Run the following command to create a new project with this Starter:
+
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+yarn create next-app [project name] -e https://github.com/Alex23925/next-r3f-starter
+# or
+npx create-next-app [project name] -e https://github.com/Alex23925/next-r3f-starter
+```
 
 ## Deploy on Vercel
 
