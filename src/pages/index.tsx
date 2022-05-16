@@ -6,7 +6,7 @@ import DomLayout from "../components/layout/DomLayout";
 import WelcomeMessage from "../components/dom/WelcomeMessage";
 import Box from "../components/canvas/Box";
 
-// dom components goes here
+// dom components go here
 const DOM = () => {
     return (
         <DomLayout>
@@ -15,7 +15,7 @@ const DOM = () => {
     );
 };
 
-// canvas components goes here
+// canvas components go here
 const R3F = () => {
     const { color, hoverColor } = useControls({
         color: "#c1b61f",
