@@ -24,8 +24,6 @@ const Controls = () => {
 const CanvasLayout = ({ children }: CanvasLayoutProps) => {
     const dom = useStore((state) => state.dom);
 
-    console.log(dom);
-
     return (
         <Canvas
             style={{
