@@ -10,13 +10,15 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint"
+        "lint": "next lint",
+        "new-component": "new-component"
     },
     "dependencies": {
         "@react-three/drei": "^9.5.3",
         "@react-three/fiber": "^8.0.12",
         "glsl-random": "^0.0.5",
         "leva": "^0.9.23",
+        "new-component": "^5.0.1",
         "next": "12.1.5",
         "react": "18.0.0",
         "react-dom": "18.0.0",
