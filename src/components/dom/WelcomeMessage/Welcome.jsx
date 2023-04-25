@@ -39,7 +39,7 @@ const StyledDiv = styled.div`
 
 const Styledh2 = styled.h2`
     font-family: "Maven Pro", sans-serif;
-    font-size: 1rem;
+    font-size: 1.25rem;
     padding: 8px 12px 8px 12px;
     &::selection {
         background: hsl(51, 46%, 84%);
@@ -48,7 +48,7 @@ const Styledh2 = styled.h2`
 
 const StyledTip = styled.p`
     font-family: "Maven Pro", sans-serif;
-    font-size: 1rem;
+    font-size: 1.25rem;
     padding: 8px 12px 8px 12px;
     &::selection {
         background: hsl(51, 46%, 84%);

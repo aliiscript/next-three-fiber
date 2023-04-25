@@ -6,7 +6,7 @@
 
 :warning:This is my official r3f-next starter. Had a [previous](https://github.com/aliiscript/next-r3f-starter) one but code was all over the place and wasnt happy with organization and have also learned alot more, will leave up tho for those who are using it :warning:
 
-## Minimal react three fiber Starter using [Next.js](https://nextjs.org/) with TypeScript and Styled Components
+## Minimal react three fiber Starter using [Next.js](https://nextjs.org/) and its new app directory with TypeScript and Styled Components
 
 ## How To Use
 

@@ -8,6 +8,10 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 
 const nextConfig = {
     reactStrictMode: true,
+    experimental: {
+        reactRoot: "concurrent",
+        appDir: true,
+    },
     compiler: {
         // ssr and displayName are configured by default
         styledComponents: true,
@@ -86,13 +90,3 @@ module.exports = plugins(
     ],
     nextConfig
 );
-
-// const nextConfig = {
-//     reactStrictMode: true,
-//     compiler: {
-//         // ssr and displayName are configured by default
-//         styledComponents: true,
-//     },
-// };
-
-// module.exports = nextConfig
