@@ -1,6 +1,6 @@
-import create, { State } from "zustand";
+import create from "zustand";
 
-interface LinkState extends State {
+interface LinkState {
     router: any;
     dom: any;
 }
