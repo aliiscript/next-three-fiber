@@ -15,8 +15,8 @@ I pretty much implented the way Renaud ROHLINGER used View from react-three/drei
 Run the following command to create a new project with this Starter:
 
 ```
-yarn create next-app [project name] -e https://github.com/aliiscript/next-three-fiber
+yarn r3f-sketch my-app --template next
 # or
-npx create-next-app [project name] -e https://github.com/aliiscript/next-three-fiber
+npx r3f-sketch my-app --template next
 ```
 
