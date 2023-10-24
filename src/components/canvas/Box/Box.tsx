@@ -1,3 +1,4 @@
+
 import React, { useRef, useState, useEffect } from "react";
 import { useFrame, extend } from "@react-three/fiber";
 import type { Mesh } from "three";
@@ -54,7 +55,7 @@ const Box = (props: BoxProps) => {
             onPointerOver={(event) => setHover(true)}
             onPointerOut={(event) => setHover(false)}
         >
-            <boxBufferGeometry args={[1, 1, 1]} />
+            <boxGeometry args={[1, 1, 1]} />
             <meshStandardMaterial color={hovered ? hoverColor : color} />
         </mesh>
     );

@@ -8,10 +8,6 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 
 const nextConfig = {
     reactStrictMode: true,
-    experimental: {
-        reactRoot: "concurrent",
-        appDir: true,
-    },
     compiler: {
         // ssr and displayName are configured by default
         styledComponents: true,
@@ -59,23 +55,6 @@ module.exports = plugins(
     [
         [
             {
-                workboxOpts: {
-                    swDest: process.env.NEXT_EXPORT
-                        ? "service-worker.js"
-                        : "static/service-worker.js",
-                    runtimeCaching: [
-                        {
-                            urlPattern: /^https?.*/,
-                            handler: "NetworkFirst",
-                            options: {
-                                cacheName: "offlineCache",
-                                expiration: {
-                                    maxEntries: 200,
-                                },
-                            },
-                        },
-                    ],
-                },
                 async rewrites() {
                     return [
                         {
