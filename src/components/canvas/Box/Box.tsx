@@ -1,4 +1,3 @@
-
 import React, { useRef, useState, useEffect } from "react";
 import { useFrame, extend } from "@react-three/fiber";
 import type { Mesh } from "three";

@@ -15,10 +15,13 @@ const WelcomeMessage = () => {
                     your project
                 </StyledTip>
                 <StyledTip2>
-                    <DeleteSpan>delete:</DeleteSpan>{" "}
-                    @/component/canvas/Box Folder when readly to start
-                    your project
+                    <DeleteSpan>delete:</DeleteSpan> @/component/canvas/Box
+                    Folder when readly to start your project
                 </StyledTip2>
+                <StyledTip>
+                    If you want post processing to work, remove of all traces of
+                    tunnelRat :( *using as default*
+                </StyledTip>
             </StyledDiv>
         </>
     );
@@ -28,6 +31,7 @@ const StyledDiv = styled.div`
     @import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
     background-color: hsl(200, 100%, 68%);
     position: absolute;
+    z-index: 1;
     left: 50%;
     transform: translate(-50%, 0);
     width: fit-content;
